@@ -32,7 +32,7 @@ export default observer((props) => {
 
   const handleOnLogin = (event) => {
     useCallbackAuth(
-      { login: data.login, password: hashString(data.password) },
+      { login: data.login, password: data.password },
       setUser
     );
     event.stopPropagation();

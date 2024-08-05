@@ -1,1 +1,2 @@
 GET http://localhost:4000/api/access
+Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlciI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzIyODUzNDc4fQ.7sJ2NnbhZD7cg-8vXeREJHXf_Q2nKANA1HsY5HhA6AQ

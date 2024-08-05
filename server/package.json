@@ -20,20 +20,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
     "cross-env": "^7.0.3",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-fileupload": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
     "express-ws": "^5.0.2",
-    "jsonwebtoken": "^8.5.1",
-    "nodemon": "^2.0.15",
-    "pg": "^8.7.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
     "pg-hstore": "^2.3.4",
-    "read-excel-file": "^5.3.3",
-    "sequelize": "^6.20.1",
-    "sequelize-cli": "^6.4.1",
+    "read-excel-file": "^5.8.4",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
     "sequelize-mig": "github:sacredneobi/sequelize-mig",
-    "telegraf": "^4.7.0"
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }

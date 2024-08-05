@@ -42,7 +42,7 @@ export default (props) => {
       {
         name: "price.sale",
         maxValue: {
-          val: 9999,
+          val: 1000000,
           errorMessage: "Сумма не должна быть больше ${val}",
         },
         minValue: {

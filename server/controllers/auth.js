@@ -7,7 +7,7 @@ const post = async (req, res) => {
   const { login, password } = req.body;
 
   const user = await model.findOne({
-    where: { name: login.toLowerCase(), password: String(password) },
+    where: { name: login.toLowerCase(), password: password },
   });
 
   if (user) {

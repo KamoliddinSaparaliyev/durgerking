@@ -4,80 +4,35 @@
   "private": true,
   "proxy": "http://127.0.0.1:4000",
   "dependencies": {
-    "@craco/craco": "^5.9.0",
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@mui/material": "^5.7.0",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "i18next": "^21.8.3",
-    "i18next-browser-languagedetector": "^6.1.4",
-    "i18next-http-backend": "^1.4.0",
-    "lottie-react": "^2.3.1",
-    "mobx": "^6.6.1",
-    "mobx-react-lite": "^3.4.0",
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.6",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.5.2",
+    "lottie-react": "^2.4.0",
+    "mobx": "^6.13.1",
+    "mobx-react-lite": "^4.0.7",
     "path-parser": "^6.1.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hash-string": "^1.0.0",
-    "react-i18next": "^11.16.9",
-    "react-router-dom": "^6.3.0",
+    "react-i18next": "^15.0.0",
+    "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
     "react-telegram-webapp": "github:davidsl4/react-telegram-webapp",
     "use-http": "^1.0.28",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^4.2.2"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "eslint:recommended"
-    ],
-    "rules": {
-      "eol-last": "error",
-      "jsx-quotes": [
-        "warn",
-        "prefer-double"
-      ],
-      "max-len": [
-        "warn",
-        {
-          "code": 120
-        }
-      ],
-      "no-duplicate-imports": "warn",
-      "no-unused-vars": [
-        "warn",
-        {
-          "args": "none"
-        }
-      ],
-      "object-curly-spacing": [
-        "warn",
-        "always"
-      ],
-      "quotes": [
-        "warn",
-        "double"
-      ],
-      "react/jsx-filename-extension": [
-        "error",
-        {
-          "extensions": [
-            ".js",
-            ".jsx",
-            ".ts",
-            ".tsx"
-          ]
-        }
-      ],
-      "semi": "warn"
-    }
   },
   "browserslist": {
     "production": [

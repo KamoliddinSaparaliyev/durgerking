@@ -1,6 +1,7 @@
 import useFetch from "use-http";
 
 const useParams = (url, cachePolicy, langBase, prefix) => {
+  console.log(url);
   return useFetch(url, {
     cachePolicy,
     data: [],
